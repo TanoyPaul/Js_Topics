@@ -26,12 +26,12 @@ let p2 = new Promise(
 p1.then(
     (value) => {
         console.log(value);
-    }
+    }  
 )
 
 p2.then(
     (value) => {
         console.log(value);
     },
-    (error) => {console.log(error);}
+    (error) => {console.log(error);} 
 )
